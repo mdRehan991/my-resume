@@ -23,6 +23,18 @@ section {
   left: 33%;
 }
 
+@media only screen and (max-width: 1100px) {
+  section {
+    text-align: left;
+    top: 30%;
+    left: 4%;
+  }
+
+  .navBar {
+    display: none;
+  }
+}
+
 .bg-img h1 {
   font-size: 60px;
   padding-bottom: 20px;
@@ -66,6 +78,8 @@ li:hover {
 
 .div1 {
   height: 750px;
+  width: 800px;
+  margin: auto;
 }
 
 .div11 {
@@ -85,17 +99,17 @@ li:hover {
 }
 
 #hr1 {
-  width: 785px;
-  margin: 0 0 0 24.5%;
+  width: 800px;
+  margin: 0 0 0 0%;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .div12 {
-  width: 15%;
+  width: 230px;
   height: 350px;
   float: left;
-  margin: 50px 30px 0 25%;
+  margin: 50px 30px 0 0;
 }
 
 .div12>h2 {
@@ -115,25 +129,25 @@ li:hover {
 }
 
 .div14 {
-  width: 250px height: 350px;
-  margin: 90px 0 0 0;
-  line-height: 5px;
+  width: 250px;
+  height: 350px;
+  margin-top: 50px;
+  float: left;
 }
 
 .div14>h3 {
   font-size: 30px;
   color: #22A39F;
-  margin: 0 0 50px 0;
+  margin-bottom: 5px;
 }
 
-.div14>h4 {
+.div14>p>strong {
   font-size: 20px;
-  line-height: 7px;
+  line-height: 45px;
 }
 
 .div14>p {
   font-size: 17px;
-  line-height: 18px;
 }
 
 #me {
@@ -147,6 +161,11 @@ li:hover {
 .div2 {
   height: 750px;
   background-color: #F3EFE0;
+}
+
+.div-cont {
+  width: 800px;
+  margin: auto;
 }
 
 .div21 {
@@ -166,15 +185,15 @@ li:hover {
 }
 
 #hr2 {
-  width: 850px;
-  margin: 0 0 0 23%;
+  width: 800px;
+  margin: 0 0 0 0%;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .div22 {
-  width: 1000px;
-  margin: 50px 0 0 350px
+  width: 800px;
+  margin-top: 50px;
 }
 
 .div22 h1 {
@@ -182,14 +201,18 @@ li:hover {
   color: #22A39F;
 }
 
+.div23, .div24, .div25 {
+  width: 800;
+  height: 140px;
+}
+
 .div22 h2 {
   margin-top: 0;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .div22 h3 {
   margin-top: 0;
-  line-height: 1px;
   font-size: 18px;
 }
 
@@ -199,20 +222,20 @@ li:hover {
 
 .div23a, .div24a, .div25a {
   display: inline-block;
-  width: 370px;
-  height: 110px;
+  width: 280px;
 }
 
 .div23b, .div24b, .div25b {
   display: inline-block;
-  width: 595px;
-  height: 110px;
+  width: 440px;
+  float: right;
 }
 
 /* -------------------------------------------------------------- */
 .div3 {
   height: 750px;
-  margin-top: 70px;
+  width: 800px;
+  margin: auto;
 }
 
 .div31 {
@@ -232,21 +255,20 @@ li:hover {
 }
 
 #hr3 {
-  width: 675px;
-  margin: 0 0 0 27%;
+  width: 800px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.div3>h3 {
+.contain3a>h3 {
   font-size: 32px;
-  margin: 5% 0 0 27%;
+  margin: 5% 0 0 0;
   color: #22A39F;
 }
 
-.cont3a {
-  width: 50%;
-  margin: 0 0 0 27%;
+.contain3a {
+  width: 680px;
+  margin: auto;
 }
 
 .div32, .div34 {
@@ -257,17 +279,21 @@ li:hover {
 }
 
 .div33, .div35 {
-  width: 100px;
+  width: 80px;
   height: 250px;
   float: left;
   font-size: 18px;
   color: #22A39F;
 }
 
+.div33 {
+  margin-right: 20px
+}
+
 .div3>a {
   clear: both;
   display: inline-block;
-  margin: 6% 0 0 44%;
+  margin: 14% 0 0 40%;
   padding: 9px;
   font-size: 17px;
   color: white;
@@ -304,16 +330,13 @@ li:hover {
 }
 
 #hr4 {
-  width: 820px;
-  margin: 0 0 0 24%;
+  width: 800px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .div42 {
-  width: 60%;
-  height: auto;
-  margin: 8% 0 0 24%;
+  margin-top: 100px;
 }
 
 .div42a {
@@ -321,7 +344,7 @@ li:hover {
 }
 
 #project-img1, #project-img2 {
-  width: 400px;
+  width: 390px;
   height: 250px;
 }
 
@@ -355,23 +378,30 @@ li:hover {
   color: rgba(255, 255, 255, 0.2);
 }
 
+#hr5 {
+  width: 800px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .div5con {
-  margin: 50px 50px 0 29%;
-  width: 1000px;
+  text-align: center;
+  margin-top: 50px
 }
 
 .div51 {
-  width: 350px;
+  width: 285px;
   height: 50px;
+  margin-right: 40px;
   font-size: 23px;
-  float: left;
+  display: inline-block;
 }
 
 .div52 {
-  width: 350px;
+  width: 320px;
   height: 50px;
   font-size: 23px;
-  float: left;
+  display: inline-block;
 }
 
 a {
@@ -383,17 +413,9 @@ a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
 
-#hr5 {
-  width: 860px;
-  margin: 0 0 0 22%;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.div5>hr {
-  clear: both;
-  width: 860px;
-  margin: 12% 0 0 22%;
+.div-cont>hr {
+  width: 800px;
+  margin-top: 85px;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
